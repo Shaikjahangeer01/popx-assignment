@@ -1,0 +1,163 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f7f8f9;
+}
+
+.container {
+  width: 375px;
+  height: 812px;
+  margin: auto;
+  background: white;
+  padding: 20px;
+  box-sizing: border-box;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+h1 {
+  color: #1d2226;
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+p {
+  color: #6b7280;
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 20px;
+}
+
+input {
+  width: 100%;
+  padding: 14px;
+  border: 1px solid #cbcbcb;
+  border-radius: 6px;
+  box-sizing: border-box;
+  margin-top: 8px;
+}
+
+button {
+  width: 100%;
+  padding: 14px;
+  border: none;
+  border-radius: 6px;
+  background: #6c25ff;
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.form-group{
+  display:flex;
+  flex-direction:column;
+  margin-bottom:18px;
+}
+
+.form-group label{
+  color:#8b5cf6;
+  font-size:14px;
+  font-weight:600;
+  margin-bottom:6px;
+}
+
+.form-group input{
+  background:white;
+  color:black;
+  border:1px solid #d1d5db;
+  border-radius:8px;
+  padding:16px;
+  font-size:16px;
+}
+
+/* PROFILE PAGE */
+
+.profile-page {
+  width: 375px;
+  min-height: 812px;
+  margin: 0 auto;
+  background: #f7f8f9;
+}
+
+.profile-card {
+  background: #ffffff;
+  min-height: 812px;
+}
+
+.profile-header {
+  padding: 24px 20px;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.profile-header h2 {
+  margin: 0;
+  font-size: 22px;
+  font-weight: 600;
+  color: #1d2226;
+}
+
+.profile-info {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding: 20px;
+}
+
+.profile-image-wrapper {
+  position: relative;
+  width: 76px;
+  height: 76px;
+}
+
+.profile-img {
+  width: 76px;
+  height: 76px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.camera-icon {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  background: #6c25ff;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+  border: 2px solid white;
+}
+
+.profile-info h3 {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 600;
+  color: #1d2226;
+}
+
+.profile-info p {
+  margin: 4px 0 0;
+  font-size: 14px;
+  color: #666;
+}
+
+.profile-text {
+  padding: 20px;
+  font-size: 14px;
+  line-height: 1.8;
+  color: #444;
+}
+
+hr {
+  border: none;
+  border-top: 1px dashed #d9d9d9;
+  margin: 0;
+}
